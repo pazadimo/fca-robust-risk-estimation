@@ -4,13 +4,24 @@ Official repository for our **CVPR 2026** paper:
 
 **Factorized Context Aggregation for Robust Cancer Risk Estimation via Soft Re-Ranked Retrieval and Hierarchical Anchors**
 
+<p align="center">
+  <img src="assets/framework_overview.png" width="95%" alt="Overview of the Factorized Context Aggregation framework">
+</p>
+
+<p align="center">
+  <em>
+    Overview of existing approaches for handling missing modalities and our proposed
+    soft re-ranked retrieval, prognostic context aggregation, and hierarchical anchor framework.
+  </em>
+</p>
+
 ## Abstract
 
-Multimodal models can improve cancer prognosis by combining histopathology with complementary information such as genomics and clinical reports. However, these models commonly assume that every modality is available during inference, which is often unrealistic in clinical practice.
+Accurate cancer risk assessment is critical for personalized treatment planning. While multimodal models that integrate histopathology with complementary data modalities, such as genomics and clinical reports, exhibit superior prognostic capability, they typically assume full data availability, which is unrealistic in real-world clinical settings.
 
-We introduce a framework that uses routinely available histopathology as the primary input while leveraging complementary modalities during training. The method estimates survival-relevant proxy representations for unavailable modalities through soft re-ranked retrieval, factorized prognostic context aggregation, and hierarchical intra- and inter-modality anchors.
+We propose a framework that uses routinely available histopathology as the primary input while leveraging complementary modalities during training. The model dynamically estimates survival-associated proxy representations for modalities that are unavailable at inference time using soft re-ranked retrieval, factorized prognostic context aggregation, and hierarchical anchors.
 
-Across 24 tasks and eight cancer types, our approach achieves up to an 8% improvement over histology-only methods while remaining within 1.4% of fully multimodal models. It also demonstrates robust patient-risk stratification and generalizes under varying levels of missing data, supporting practical cancer-risk estimation in modality-incomplete clinical settings. :contentReference[oaicite:0]{index=0}
+Across **24 tasks and eight cancer types**, our method achieves up to an **8% improvement** over models trained solely with histopathology while maintaining only a **1.4% performance gap** compared with fully multimodal models. It also demonstrates robust risk stratification and generalization under varying levels of modality missingness.
 
 ## Overview
 
@@ -29,7 +40,7 @@ Check out the paper here:
 
 ## Code
 
-The implementation, training instructions, and data-processing scripts will be released by the **end of June 2026**.
+The implementation, training instructions, pretrained models, and data-processing scripts will be released by the **end of June 2026**.
 
 Stay tuned for updates.
 
