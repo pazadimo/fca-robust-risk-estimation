@@ -5,7 +5,7 @@ Official repository for our **CVPR 2026** paper:
 **Factorized Context Aggregation for Robust Cancer Risk Estimation via Soft Re-Ranked Retrieval and Hierarchical Anchors**
 
 <p align="center">
-  <img src="assets/framework_overview.png" width="95%" alt="Overview of the Factorized Context Aggregation framework">
+  <img src="[assets/framework_overview.png](https://github.com/pazadimo/fca-robust-risk-estimation/blob/main/overview_v4.pdf)" width="95%" alt="Overview of the Factorized Context Aggregation framework">
 </p>
 
 <p align="center">
