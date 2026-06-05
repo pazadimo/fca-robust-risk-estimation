@@ -16,6 +16,13 @@ Official repository for our **CVPR 2026** paper:
   </em>
 </p>
 
+## Paper
+
+Check out the paper here:
+
+[CVPR 2026 Paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Moghadam_Factorized_Context_Aggregation_for_Robust_Cancer_Risk_Estimation_via_Soft_CVPR_2026_paper.pdf)
+
+
 ## Abstract
 
 Multimodal learning can improve cancer risk estimation by combining histopathology with complementary information such as genomic data and pathology reports. However, these additional modalities are often unavailable during real-world clinical deployment.
@@ -32,11 +39,6 @@ The proposed framework leverages complementary modalities during training while 
 
 Across **eight cancer types and 24 tasks**, our method improves robustness to missing modalities and achieves performance close to fully multimodal models.
 
-## Paper
-
-Check out the paper here:
-
-[CVPR 2026 Paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Moghadam_Factorized_Context_Aggregation_for_Robust_Cancer_Risk_Estimation_via_Soft_CVPR_2026_paper.pdf)
 
 ## Code Release
 
